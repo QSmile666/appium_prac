@@ -6,8 +6,7 @@ from time import sleep
 from appium import webdriver
 from appium.webdriver.common.mobileby import MobileBy
 import pytest
-
-'''
+"""
 作业：使用 Appium 编写企业微信搜索功能的测试用例，搜索一个存在的联系人。
 
 用例步骤：
@@ -24,7 +23,7 @@ import pytest
 提前登录，绕过登录功能
 进行简单的重构，使用 pytest 测试框架。
 可以加入参数化，实现多条搜索功能的测试用例。
-'''
+"""
 class TestWeixin():
     def setup(self):
         desire_caps = {}
